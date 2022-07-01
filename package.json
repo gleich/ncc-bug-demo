@@ -5,5 +5,8 @@
   "repository": "https://github.com/gleich/ncc-bug-demo.git",
   "author": "Matt Gleich <git@mattglei.ch>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
 }
