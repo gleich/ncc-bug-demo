@@ -6,7 +6,12 @@
   "author": "Matt Gleich <git@mattglei.ch>",
   "license": "MIT",
   "private": true,
-  "devDependencies": {
+  "scripts": {
+    "start": "ncc build bin/main.ts --transpile-only"
+  },
+  "dependencies": {
+    "@apidevtools/swagger-parser": "^10.1.0",
+    "@vercel/ncc": "^0.34.0",
     "typescript": "^4.7.4"
   }
 }
